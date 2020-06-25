@@ -1,0 +1,64 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header id="header">
+        <a href="#" class="logo">LOGO</a>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Conatact</a></li>
+        </ul>
+        <div class="toggle" onclick="toggle()"></div>
+    </header>
+
+    <section id="home">
+        <div>
+            <h2>Res</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dicta, quod mollitia tempore commodi
+                voluptatum et autem eligendi quam in suscipit totam fugiat porro, libero omnis deleniti dolore, quasi
+                reiciendis.</p>
+            <a href="#">Read More</a>
+            <a href="sections.html">Go to Sections</a>
+        </div>
+        <img src="./assets/img/img1.png" alt="">
+    </section>
+
+    <section id="about">
+        <div>
+            <h2>About</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dicta, quod mollitia tempore commodi
+                voluptatum et autem eligendi quam in suscipit totam fugiat porro, libero omnis deleniti dolore, quasi
+                reiciendis.</p>
+            <a href="#">Read More</a>
+        </div>
+        <img src="./assets/img/img1.png" alt="">
+    </section>
+
+    <section id="services">
+        <div>
+            <h2>Services</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dicta, quod mollitia tempore commodi
+                voluptatum et autem eligendi quam in suscipit totam fugiat porro, libero omnis deleniti dolore, quasi
+                reiciendis.</p>
+            <a href="#">Read More</a>
+        </div>
+        <img src="./assets/img/img1.png" alt="">
+    </section>
+<script>
+    function toggle(){
+        var header = document.getElementById('header');
+        header.classList.toggle('active');
+    }
+</script>
+</body>
+
+</html>
